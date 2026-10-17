@@ -1,0 +1,6 @@
+{
+  "name": "quiz-admin", "version": "1.0.0", "private": true,
+  "scripts": { "serve": "vue-cli-service serve", "build": "vue-cli-service build" },
+  "dependencies": { "vue": "2.7.16", "vue-router": "3.6.5", "element-ui": "2.15.14", "core-js": "^3.38.1" },
+  "devDependencies": { "@vue/cli-service": "5.0.8", "vue-template-compiler": "2.7.16" }
+}

@@ -1,0 +1,13 @@
+body { margin: 0; font-family: "Microsoft YaHei", Arial, sans-serif; color: #303133; }
+* { box-sizing: border-box; }
+.layout { min-height: 100vh; }
+.el-header { background: #eef1f6; border-bottom: 1px solid #dcdfe6; display: flex; align-items: center; }
+h1 { font-size: 22px; margin: 0; } h2 { font-size: 20px; margin: 0 0 24px; }
+.body { flex: 1; } .el-aside { border-right: 1px solid #e6e6e6; } .el-menu { border-right: 0; }
+.el-main { min-width: 0; padding: 24px; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 20px; }
+.toolbar .el-input { width: 240px; } .toolbar .el-button + .el-button { margin-left: 0; }
+.el-pagination { margin-top: 20px; white-space: normal; } .el-dialog { width: min(520px, 92vw); }
+.options { line-height: 1.8; } .el-table .cell { word-break: break-word; }
+@media (max-width: 640px) { .body { flex-direction: column; } .el-aside { width: 100% !important; border-right: 0; border-bottom: 1px solid #e6e6e6; } .el-menu { display: flex; } .el-main { padding: 16px; } }
+
